@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+let gitDefinition = 'a control system for tracking changes in computer files.'
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+let gitHubDefinition = 'a cloud for people to share code over the intranet.'
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -33,7 +33,10 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+let init = {
+    description: 'creates a new git repository',
+    code: 'git init'
+}
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +44,10 @@
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+let clone = {
+    description: 'coppies an existing repositiry',
+    code : ' git clone'
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +55,11 @@
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+let status = {
+    description: 'displays the state of the working directory',
+    code : 'git status'
+}
+
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +67,11 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+let add = {
+    description: 'adds file contents to the index',
+    code : 'git add'
+}
+
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +79,11 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+let commit = {
+    description: 'saves your version of the code and allows you to state what you changed.',
+    code : 'git commit -m'
+}
+
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,7 +91,11 @@
     following the guidelines above to describe the command to add a remote location to your git repository.
 */
 
-//CODE HERE
+let addRemote = {
+    description: 'adds a new remote',
+    code : 'git remote add'
+}
+
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -81,4 +103,8 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+let push = {
+    description: 'pushes your code to gitHub',
+    code : 'git push'
+}
+

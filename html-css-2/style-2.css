@@ -1,0 +1,107 @@
+header {
+  height: 10vh;
+  background-color: rgb(114, 233, 166);
+  
+}
+h1 {
+  margin: 0;
+  padding-left: 30px;
+  padding-top: 20px;
+}
+h2 {
+  margin-top: 15px;
+}
+.box1 {
+  height: 30vh;
+  border-style: dotted;
+}
+.rec1 {
+  margin: 110px 0px 0px 20px;
+  height: 100px;
+  width: 200px;
+  background-color: purple;
+  border-color: red;
+  border-style: solid;
+  display: inline-block;
+}
+.rec2 {
+  margin: 110px 0px 0px 20px;
+  height: 105px;
+  width: 105px;
+  background-color: blue;
+  display: inline-block;
+  box-shadow: 5px 5px 13px 0px #000000;
+}
+.rec3 {
+  margin: 0px 0px 0px 20px;
+  height: 200px;
+  width: 200px;
+  background-color: pink;
+  box-shadow: 0px 0px 4px 0px #000000;
+  display: inline-block;
+}
+
+
+.box2 {
+  height: 64vh;
+  border-style: dotted;
+}
+.circle1{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  display: block;
+  border-style: solid;
+  margin-left: 55px;
+  margin-top: 5px;
+}
+.circle2{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  border: solid;
+  margin-left: 30px;
+}
+.circle3{
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  display: block;
+  border: solid;
+  margin-left: 5px;
+}
+
+.box3 {
+  height: 35vh;
+  border-style: dotted;
+}
+.sq1 {
+  height: 31vh;
+  width: 31vh;
+  border-style: solid;
+  margin-top: 10px;
+  margin-left: 10px;
+  
+}
+.cir1 {
+  height: 25vh;
+  width: 25vh; 
+  background-color: green;
+  border-radius: 50%;
+  margin: 0;
+}
+.sq2 {
+  height: 17vh;
+  width: 17vh;
+  background-color: brown;
+  margin: 0px 0px 0px 20px;
+
+}
+.cir2 {
+  height: 13vh ;
+  width: 13vh;
+  border-radius: 50%;
+  background-color: rgb(35, 47, 209);
+  margin-top: auto;
+}
